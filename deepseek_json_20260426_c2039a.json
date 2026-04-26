@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ru.oxxxlyma.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [],
+  "client": [
+    "WorldRendererMixin",
+    "AttackParticleMixin",
+    "HudRenderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
